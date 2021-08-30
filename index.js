@@ -13,7 +13,7 @@ function agePredictor(){
         outputResult.innerHTML = "<h2> "+ "Name: " + `${json.name}`+ "</h2>" 
         + "<h3>" + "Age: "+ `${json.age}` + "</h3>")
     .catch(error => 
-            outputResult.innerText = error);
+            console.log(error));
     }
     
 
