@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,17 +12,26 @@ body{
     flex-direction: column;
     width: 50%;
     margin-left: 25%;
+    background-color: slategray;
+    height: 75vh;
 }
 
 #nameInput{
     margin: 2rem auto;
-    padding: 3px;
+    padding: 0.5rem;
+    font-family: 'Source Code Pro', monospace;
 }
 #checkButton{
     margin: 1rem auto;
-    padding: 2px;
+    padding: 2.5px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 0.5rem;
+    border: 3px solid darkslateblue;
+    
+
 }
 
 #outputResult{
     margin: 1rem auto;
+    font-family: 'Press Start 2P', cursive;
 }
