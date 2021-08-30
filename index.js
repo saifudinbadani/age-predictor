@@ -11,9 +11,10 @@ function agePredictor(){
     .then(response => response.json())
     .then(json => 
         outputResult.innerHTML = "<h2> "+ "Name: " + `${json.name}`+ "</h2>" 
-        + "<h3>" + "Age: "+ `${json.age}` + "</h3>");
+        + "<h3>" + "Age: "+ `${json.age}` + "</h3>")
+    .catch(error => 
+            outputResult.innerText = error);
+    }
     
-}
-
 
 checkButton.addEventListener('click', agePredictor);
