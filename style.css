@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#nameInput{
+    margin: 2rem auto;
+    padding: 3px;
+}
+#checkButton{
+    margin: 1rem auto;
+    padding: 2px;
+}
+
+#outputResult{
+    margin: 1rem auto;
+}
